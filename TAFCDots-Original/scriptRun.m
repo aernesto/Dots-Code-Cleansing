@@ -11,7 +11,7 @@ save('scriptRunValues/DT.mat','decisiontime_max')
 
 %Specify gatherTAFCDotsSubInfoQuest information
 %Will be used to create the save file information.
-tag = 'Justin';
+tag = 'Adrian';
 id = '43';
 session = 1; %Will increment if same session save exists
 foldername ='TAFCDotsData'; %What folder to save into
@@ -20,10 +20,10 @@ save('scriptRunValues/gatherinfo.mat','tag','id','session','foldername');
 %TAFCDotsLogic
 name = 'TAFC Reaction Time Perceptual Task';
 nBlocks = 1;
-trialsPerBlock = 2;
+trialsPerBlock = 20;
 H = .1; %Hazard Rate
-coherence = 100; %Percent of dots moving in stimulus direction
-duration = 1; %length of time dots are shown
+coherence = 75; %Percent of dots moving in stimulus direction
+duration = 2; %length of time dots are shown
 practiceN = 0;
 
 %minT = 1;
